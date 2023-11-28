@@ -29,6 +29,7 @@ func main() {
 		}
 	}
 
+	// test
 	config.LoadConfig()
 
 	config.UserBot, err = bot.GetCurrentUser()
